@@ -8,7 +8,7 @@ const Section = forwardRef(({ section, values, handleChange, handleBlur }, ref) 
       ref={ref} 
       className="bg-white rounded-2xl p-8 mb-6 shadow-lg transition-transform hover:-translate-y-1 animate-slide-in"
     >
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-4 border-purple-500 inline-block">
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-3 border-b-4 border-gray-900 inline-block">
         {section.title}
       </h2>
       {section.fields.map((field) => (

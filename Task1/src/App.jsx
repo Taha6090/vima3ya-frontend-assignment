@@ -94,6 +94,9 @@ const App = () => {
       />
 
       <div className="flex-1 ml-72 p-8 overflow-y-auto h-screen" ref={mainContentRef}>
+      
+       <h2 className='text-center text-4xl font-medium'>   Multi-Section Form</h2>
+
         <div className="max-w-4xl mx-auto">
           <Formik
             initialValues={INITIAL_VALUES}
@@ -133,7 +136,7 @@ const App = () => {
                     className={`relative flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300
     ${isSubmitting
                         ? 'bg-gray-400 cursor-not-allowed'
-                        : 'bg-blue-600 hover:bg-blue-700 active:scale-95 shadow-md hover:shadow-lg'}
+                        : 'bg-gray-600 hover:bg-gray-900 active:scale-95 shadow-md hover:shadow-lg'}
   `}
                   >
                     {isSubmitting && (

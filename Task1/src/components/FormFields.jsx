@@ -5,7 +5,7 @@ const FormField = ({ name, value, placeholder, validator, errorMessage, type = '
   const renderInput = () => {
     const baseClasses = "w-full px-4 py-3 border-2 rounded-xl focus:outline-none focus:ring-2 transition-all duration-300";
     const errorClasses = "border-red-400 focus:border-red-500 focus:ring-red-200";
-    const normalClasses = "border-gray-200 focus:border-purple-500 focus:ring-purple-200";
+    const normalClasses = "border-gray-200 focus:border-gray-900 focus:ring-gray-200";
     
     const inputClasses = `${baseClasses} ${normalClasses}`;
     
