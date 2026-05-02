@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>3D Model Viewer - Draco Compressed GLB</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loader-container">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading 3D Model</div>
+            <div class="loading-percent" id="loading-percent">0%</div>
+            <div id="error-detail" class="error-message" style="display:none;"></div>
+        </div>
+    </div>
+    <div class="info-panel" id="info-panel">
+        ⏳ Initializing...
+    </div>
+    <div class="controls-panel" id="auto-rotate-btn">
+        🔄 Auto-rotate: OFF
+    </div>
+  <script src="app.js"></script>
+  
+</body>
+</html>
